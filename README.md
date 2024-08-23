@@ -76,4 +76,4 @@ A foto acima representa a Matriz Confusão gerada pelos códigos disponibilizado
  
 
 <p align="center">
-  <img src=" https://miro.medium.com/v2/resize:fit:640/format:webp/1*FvMtz5kCu-GOI3GSgi6k4Q.png"width="30%"</p>
+  <img src="https://miro.medium.com/v2/resize:fit:700/1*FvMtz5kCu-GOI3GSgi6k4Q.png"width="30%"</p>
