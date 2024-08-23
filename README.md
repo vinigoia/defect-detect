@@ -1,4 +1,4 @@
-<img src="https://github.com/vinigoia/defect-detect/tree/defect-detect-proj/assets/logo_take.jpg"/>
+<img src="https://github.com/vinigoia/defect-detect/blob/c766e972dd478f8cda17cd8d5fc5797f91714ad6/assets/logo_take.jpg)/logo_take.jpg"/>
 
 <div align="center">
   
