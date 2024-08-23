@@ -71,5 +71,5 @@ A foto acima representa a Matriz Confusão gerada pelos códigos disponibilizado
 ## Acurácia, Precisão, Recall e F1-Score
 
 <p align="center">
-  <img src="https://github.com/vinigoia/defect-detect/blob/c766e972dd478f8cda17cd8d5fc5797f91714ad6/assets/classification_report_json.png"width="50%"</p>
+  <img src="https://github.com/vinigoia/defect-detect/blob/c766e972dd478f8cda17cd8d5fc5797f91714ad6/assets/classification_report_json.png"width="20%"</p>
 
