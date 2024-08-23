@@ -109,14 +109,22 @@ Também chamada de sensibilidade ou taxa de verdadeiros positivos (TPR), é a pr
 
 ## Sobre o Processo
 
-O intuito desse projeto foi demonstrar a construção de códigos que possibilitaram a execução do treinamento de um modelo de maneira automática através de um dataset fornecido.
+O intuito desse projeto foi demonstrar a construção de códigos que possibilitem a execução do treinamento de um modelo de maneira automática através de um dataset fornecido.
 Alguns processos comumentes utilizados nesse tipo de pipeline foram desconsiderados devido a estrutura do dataset. Por exemplo, o processo de divisão de dados de treinamento e teste já estava realizado. Também observou-se o balancemanto das classes através da quantidade de fotos por pasta.
 
-Optou-se pela utilização de transfer-learning para a otimização das métricas de treinamento. Em um primeiro caso, havia-se observado métricas muito boas no dataset sem data augmentation e transfer-learning, porém, nos testes, os valores ficaram um pouco abaixo.
+Optou-se pela utilização de transfer-learning para a otimização das métricas de treinamento. Em um primeiro caso, havia-se observado métricas muito boas no dataset sem data augmentation e transfer-learning, porém, nos testes, os valores ficaram um pouco abaixo do esperado.
 
 Os códigos foram estruturados de uma maneira em que os processos são claramente visíveis, facilitando qualquer alteração.
 
-Foi verificado a possibilidade da criação de um entregável executável, porém, devido ao seu grande tamanho, não foi disponibilizado aqui. 
+Foi verificado a possibilidade da criação de um entregável executável, porém, devido ao seu grande tamanho, não foi disponibilizado aqui. O executável, caso mantido, não poderia ser compilado com a flag `-t T`.
+
+Ao final, obteve-se um modelo que atingiu as seguintes métricas no dataset de teste: 
+Acurácia: 0.9340 
+F1 Score: 0.9297 
+Precision: 0.9360 
+Recall: 0.9237
+
+Há espaço para novos testes e investigações, bem como aplicações em situações reais de Visão Computacional para a real medição da eficiência.
 
 
 
