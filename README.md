@@ -12,7 +12,7 @@
 Este repositório refere-se ao projeto de etapa de processo seletivo da Empresa Take and Go para a vaga de Desenvolvedor de Inteligência Artificial. Os algoritmos carregam o dataset e treinam um modelo capaz de realizar classificações em novas imagens.
 
 <p align="center">
-  <img src="https://github.com/vinigoia/defect-detect/blob/c766e972dd478f8cda17cd8d5fc5797f91714ad6/assets/exemplo.jpg"width="70%"</p>
+  <img src="https://github.com/vinigoia/defect-detect/blob/c766e972dd478f8cda17cd8d5fc5797f91714ad6/assets/exemplo.png.png"width="50%</p>
 
 ## Pré-requisitos   
 
@@ -110,7 +110,7 @@ Também chamada de sensibilidade ou taxa de verdadeiros positivos (TPR), é a pr
   <img src="https://miro.medium.com/v2/resize:fit:700/1*qFeLJvX-K3VMfROmKTejpQ.png"width="50%"</p>
 
 
-## Sobre o Processo
+# Sobre o Processo
 
 O intuito desse projeto foi demonstrar a construção de códigos que possibilitaram a execução do treinamento de um modelo de maneira automática através de um dataset fornecido.
 Alguns processos comumentes utilizados nesse tipo de pipeline foram desconsiderados devido a estrutura do dataset. Por exemplo, o processo de divisão de dados de treinamento e teste já estava realizado. Também observou-se o balancemanto das classes através da quantidade de fotos por pasta.
