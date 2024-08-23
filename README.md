@@ -62,8 +62,9 @@ O Tensorboard funciona através dos logs gerados durante o processo de treinamen
 # Resultados
 
 ## Matriz Confusão
+<p align="center">
+  <img src="https://github.com/vinigoia/defect-detect/blob/c766e972dd478f8cda17cd8d5fc5797f91714ad6/assets/confusion_matrix.png"width="80%"</p>
 
-<img src="https://github.com/vinigoia/defect-detect/blob/c766e972dd478f8cda17cd8d5fc5797f91714ad6/assets/confusion_matrix.png"/>
 
 ## Imagem Desfocada
 
