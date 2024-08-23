@@ -13,7 +13,7 @@ Este repositório refere-se ao projeto de etapa de processo seletivo da Empresa 
 
 ## Pré-requisitos   
 
-* **Python** - Dependências necessárias para executar na linguagem. [Instalação Python][https://www.python.org/downloads/)
+* **Python** - Dependências necessárias para executar na linguagem. [Instalação Python](https://www.python.org/downloads/)
 
 * **VSCode** - Editor de código utilizado durante o desenvolvimento. Disponível para Windows, macOS e Linux. [Instalação oficial do VSCode](https://code.visualstudio.com/download)
 
@@ -65,8 +65,11 @@ O Tensorboard funciona através dos logs gerados durante o processo de treinamen
 <p align="center">
   <img src="https://github.com/vinigoia/defect-detect/blob/c766e972dd478f8cda17cd8d5fc5797f91714ad6/assets/confusion_matrix.png"width="50%"</p>
 
+A Matriz Confusão é uma tabela onde é possível observar o desempenho de um classificador. Basicamente ela indica quando o modelo classificou de forma correta ou não as entradas.
+A foto acima representa a Matriz Confusão gerada pelos códigos disponibilizados e observa-se que houve poucos erros. A partir disso, pode verificar outras métricas.
 
-## Imagem Desfocada
+## Acurácia, Precisão, Recall e F1-Score
 
-<img src="https://github.com/vinigoia/blur_Images_api/blob/main/Arquivos%20de%20teste/img_blurred%20(1).png"/>
+<p align="center">
+  <img src="https://github.com/vinigoia/defect-detect/blob/c766e972dd478f8cda17cd8d5fc5797f91714ad6/assets/classification_report_json.png"width="50%"</p>
 
