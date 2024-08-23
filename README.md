@@ -12,7 +12,7 @@
 Este repositório refere-se ao projeto de etapa de processo seletivo da Empresa Take and Go para a vaga de Desenvolvedor de Inteligência Artificial. Os algoritmos carregam o dataset e treinam um modelo capaz de realizar classificações em novas imagens.
 
 <p align="center">
-  <img src="https://github.com/vinigoia/defect-detect/blob/c766e972dd478f8cda17cd8d5fc5797f91714ad6/assets/exemplo.png.png"width="50%"</p>
+  <img src="https://github.com/vinigoia/defect-detect/blob/defect-detect-proj/assets/epoch_metrics_csv.png"width="50%"</p>
 
 ## Pré-requisitos   
 
