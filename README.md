@@ -23,7 +23,7 @@ Este repositório refere-se ao projeto de etapa de processo seletivo da Empresa 
 
 Aqui está um resumo dos passos que você precisa seguir:
 
-1. Clonar o [Repositório Github](https://github.com/vinigoia/defect-detect_api) para a sua máquina local e entrar na pasta:
+1. Clonar o [Repositório Github](https://github.com/vinigoia/defect-detect.git) para a sua máquina local e entrar na pasta:
 
    ```bash
    git clone https://github.com/vinigoia/defect-detect.git
@@ -57,13 +57,13 @@ No bash, o link `http://localhost:6006/` será exibido. Clicando nele, o servido
 <p align="center">
   <img src="https://www.tensorflow.org/tensorboard/images/tensorboard.gif"width="50%"</p>
 
+O Tensorboard funciona através dos logs gerados durante o processo de treinamento e, de maneira interativa, é possível observar diversas métricas.
 
+# Resultados
 
-# Resultado
+## Matriz Confusão
 
-## Imagem Original
-
-<img src="https://github.com/vinigoia/blur_Images_api/blob/main/Arquivos%20de%20teste/ellen-degeneres-de-branco-em-foto.jpg"/>
+<img src="https://github.com/vinigoia/defect-detect/blob/c766e972dd478f8cda17cd8d5fc5797f91714ad6/assets/confusion_matrix.png"/>
 
 ## Imagem Desfocada
 
