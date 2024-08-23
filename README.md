@@ -1,4 +1,5 @@
-<img src="https://github.com/vinigoia/defect-detect/blob/c766e972dd478f8cda17cd8d5fc5797f91714ad6/assets/logo_take.jpg"/>
+<p align="center">
+  <img src="https://github.com/vinigoia/defect-detect/blob/c766e972dd478f8cda17cd8d5fc5797f91714ad6/assets/logo_take.jpg"width="70%"</p>
 
 <div align="center">
   
