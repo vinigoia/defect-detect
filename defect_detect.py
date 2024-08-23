@@ -72,13 +72,13 @@ data_augmentation = tf.keras.Sequential(
   ]
 )
 
-# Carregar o modelo pré-treinado InceptionV3 sem as camadas densas
+#Carregar o modelo pré-treinado InceptionV3 sem as camadas densas
 base_model = InceptionV3(input_shape=(200, 200, 3),include_top=False, weights='imagenet')
 
-# Congelar as camadas convolucionais pré-treinadas
+#Congelar as camadas convolucionais pré-treinadas
 base_model.trainable = False
 
-# Adaptar o modelo para processar as imagens
+#Adaptar o modelo para processar as imagens
 model = Sequential([
     layers.Rescaling(1./255, input_shape=(img_height, img_width, 1)),
     data_augmentation,
@@ -117,17 +117,13 @@ print("\nExportando métricas...")
 #Exportação das métricas utilizadas
 ExportMetrics.export(model,test_ds)
 
-# Caminho para o ambiente virtual
-#env_dir = os.path.join(os.curdir, "env_detect", "Scripts", "activate.bat")
-
 #Condições para o argparse
 if args.e:
-    # Comando para ativar o ambiente virtual e executar o script Python
+    #Comando para ativar o ambiente virtual e executar o script Python
     evaluate(test_ds)
 
 if args.t:
-    # Comando para ativar o ambiente virtual e executar o script Python
-    #command = f'{env_dir} && python tensorboard_run.py'
+    #Comando para ativar o servidor Tensorboard
     tensorboard_process()
     
 
