@@ -11,7 +11,9 @@
 
 Este repositório refere-se ao projeto de etapa de processo seletivo da Empresa Take and Go para a vaga de Desenvolvedor de Inteligência Artificial. Os algoritmos carregam o dataset e treinam um modelo capaz de realizar classificações em novas imagens.
 
-## Pré-requisitos
+## Pré-requisitos   
+
+* **Python** - Dependências necessárias para executar na linguagem. [Instalação Python][https://www.python.org/downloads/)
 
 * **VSCode** - Editor de código utilizado durante o desenvolvimento. Disponível para Windows, macOS e Linux. [Instalação oficial do VSCode](https://code.visualstudio.com/download)
 
@@ -21,10 +23,11 @@ Este repositório refere-se ao projeto de etapa de processo seletivo da Empresa 
 
 Aqui está um resumo dos passos que você precisa seguir:
 
-1. Clonar o [Repositório Github](https://github.com/vinigoia/defect-detect_api) para a sua máquina local:
+1. Clonar o [Repositório Github](https://github.com/vinigoia/defect-detect_api) para a sua máquina local e entrar na pasta:
 
    ```bash
-   git clone https://github.com/vinigoia/defect-detect_api
+   git clone https://github.com/vinigoia/defect-detect.git
+   cd defect-detect
    ```
 
 **Obs:** Antes de proseguir, delete as pastas `metrics` e `logs` para que o processo gere-as novamente. O arquivo `defect_model.keras` pode ser mantido pois será substituído. Caso haja necessidade de novos treinamentos com épocas diferentes, na pasta `dataset` certifique-se de deixar apenas o arquivo compactado.
@@ -47,17 +50,11 @@ Aqui está um resumo dos passos que você precisa seguir:
 
 Ao final do processo, um modelo será gerado, de nome `defect_model.keras`, e as pastas `metrics` e `logs` também serão geradas.
 
-A aplicação também está hospedada no site do Streamlit, podendo ser acessada diretamente pelo [link](https://blurimagesapi-bpsnngqkeuandkara6zets.streamlit.app/)
+No bash, o link `http://localhost:6006/` será exibido. Clicando nele, o servidor do Tensorboard será acessado através de uma pagina web.
 
+# Tensorboard
 
-
-
-
-
-
-# Funcionamento
-
-<img src="https://github.com/vinigoia/blur_Images_api/blob/main/Arquivos%20de%20teste/ezgif.com-video-to-gif-converter.gif" width="50%" height="50%"/>
+<img src="https://github.com/vinigoia/defect-detect/tree/defect-detect-proj/assets/tensorboard.png" width="50%" height="50%"/>
 
 # Resultado
 
