@@ -73,25 +73,35 @@ A foto acima representa a Matriz Confusão gerada pelos códigos disponibilizado
 <p align="center">
   <img src="https://github.com/vinigoia/defect-detect/blob/c766e972dd478f8cda17cd8d5fc5797f91714ad6/assets/classification_report_json.png"width="30%"</p>
 
- Como observado acima, as nossa métricas para o modelo treinado foram muito boas. Vamos entender o que cada uma delas representa:
+Como observado acima, as nossa métricas para o modelo treinado foram muito boas. Vamos entender o que cada uma delas representa:
 
 ### Acurácia
+
+Basicamente a Acurácia nos indica quantos exemplos foram classificados de maneira correta, independentemente da classe. É representada pela fórmula abaixo:
+
 <p align="center">
   <img src="https://miro.medium.com/v2/resize:fit:700/1*FvMtz5kCu-GOI3GSgi6k4Q.png"width="50%"</p>
 
-
+Deve-se tomar cuidado em apenas analisar a Acurácia pois, mesmo atingindo porcentagens altas, isso pode não condizer com a realidade, ainda mais quando se possui um dataset desbalanceado.
 
 ### Precisão
+
+Conhecida como acurácia das predições positivas, dá ênfase maior aos erros falsos positivos. É representada pela função abaixo:
+
 <p align="center">
   <img src="https://miro.medium.com/v2/resize:fit:700/1*9yxSYzw298P_JSZuTMVEBg.png"width="50%"</p>
 
-
-
 ### Recall ou Revogação
+
+Também chamada de sensibilidade ou taxa de verdadeiros positivos (TPR), é a proporção de instâncias positivas que são detectadas corretamente pelo classificador. É representada pela fórmula abaixo:
+
 <p align="center">
   <img src="https://miro.medium.com/v2/resize:fit:700/1*fqZ1ymVGGSA5fbqYrf1t1Q.png"width="50%"</p>
 
 ### F1 Score
+
+É a média harmônica da precisão e do recall, dando importância aos valores mais baixos. Representada pela fórmula abaixo:
+
 <p align="center">
   <img src="https://miro.medium.com/v2/resize:fit:700/1*qFeLJvX-K3VMfROmKTejpQ.png"width="50%"</p>
 
