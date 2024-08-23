@@ -45,6 +45,7 @@ Aqui está um resumo dos passos que você precisa seguir:
    ```bash
    python defect_detect.py -e E -t T
    ```
+**Obs:** A flag `-e E` habilita a avaliação do modelo ao final do proceso. A flag `-t T` habilita o servidor Tensorboard no final do processo.
 
 4. Inserir o número de épocas e aguardar o processamento.
 
@@ -104,6 +105,18 @@ Também chamada de sensibilidade ou taxa de verdadeiros positivos (TPR), é a pr
 
 <p align="center">
   <img src="https://miro.medium.com/v2/resize:fit:700/1*qFeLJvX-K3VMfROmKTejpQ.png"width="50%"</p>
+
+
+## Sobre o Processo
+
+O intuito desse projeto foi demonstrar a construção de códigos que possibilitaram a execução do treinamento de um modelo de maneira automática através de um dataset fornecido.
+Alguns processos comumentes utilizados nesse tipo de pipeline foram desconsiderados devido a estrutura do dataset. Por exemplo, o processo de divisão de dados de treinamento e teste já estava realizado. Também observou-se o balancemanto das classes através da quantidade de fotos por pasta.
+
+Optou-se pela utilização de transfer-learning para a otimização das métricas de treinamento. Em um primeiro caso, havia-se observado métricas muito boas no dataset sem data augmentation e transfer-learning, porém, nos testes, os valores ficaram um pouco abaixo.
+
+Os códigos foram estruturados de uma maneira em que os processos são claramente visíveis, facilitando qualquer alteração.
+
+Foi verificado a possibilidade da criação de um entregável executável, porém, devido ao seu grande tamanho, não foi disponibilizado aqui. 
 
 
 
