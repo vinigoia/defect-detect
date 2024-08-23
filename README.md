@@ -11,9 +11,12 @@
 
 Este repositório refere-se ao projeto de etapa de processo seletivo da Empresa Take and Go para a vaga de Desenvolvedor de Inteligência Artificial. Os algoritmos carregam o dataset e treinam um modelo capaz de realizar classificações em novas imagens.
 
+<p align="center">
+  <img src="https://github.com/vinigoia/defect-detect/blob/c766e972dd478f8cda17cd8d5fc5797f91714ad6/assets/exemplo.jpg"width="70%"</p>
+
 ## Pré-requisitos   
 
-* **Python** - Dependências necessárias para executar na linguagem. [Instalação Python](https://www.python.org/downloads/)
+* **Python** - Dependências necessárias para executar a linguagem. [Instalação Python](https://www.python.org/downloads/)
 
 * **VSCode** - Editor de código utilizado durante o desenvolvimento. Disponível para Windows, macOS e Linux. [Instalação oficial do VSCode](https://code.visualstudio.com/download)
 
@@ -67,14 +70,14 @@ O Tensorboard funciona através dos logs gerados durante o processo de treinamen
   <img src="https://github.com/vinigoia/defect-detect/blob/c766e972dd478f8cda17cd8d5fc5797f91714ad6/assets/confusion_matrix.png"width="50%"</p>
 
 A Matriz Confusão é uma tabela onde é possível observar o desempenho de um classificador. Basicamente ela indica quando o modelo classificou de forma correta ou não as entradas.
-A foto acima representa a Matriz Confusão gerada pelos códigos disponibilizados e observa-se que houve poucos erros. A partir disso, pode verificar outras métricas.
+A foto acima representa a Matriz Confusão gerada pelos códigos disponibilizados e observa-se que houve poucos erros. A partir disso, pode-se verificar outras métricas.
 
 ## Acurácia, Precisão, Recall e F1-Score
 
 <p align="center">
   <img src="https://github.com/vinigoia/defect-detect/blob/c766e972dd478f8cda17cd8d5fc5797f91714ad6/assets/classification_report_json.png"width="30%"</p>
 
-Como observado acima, as nossa métricas para o modelo treinado foram muito boas. Vamos entender o que cada uma delas representa:
+Como observado acima, as nossas métricas para o modelo treinado foram muito boas. Vamos entender o que cada uma delas representa:
 
 ### Acurácia
 
@@ -109,14 +112,14 @@ Também chamada de sensibilidade ou taxa de verdadeiros positivos (TPR), é a pr
 
 ## Sobre o Processo
 
-O intuito desse projeto foi demonstrar a construção de códigos que possibilitem a execução do treinamento de um modelo de maneira automática através de um dataset fornecido.
+O intuito desse projeto foi demonstrar a construção de códigos que possibilitaram a execução do treinamento de um modelo de maneira automática através de um dataset fornecido.
 Alguns processos comumentes utilizados nesse tipo de pipeline foram desconsiderados devido a estrutura do dataset. Por exemplo, o processo de divisão de dados de treinamento e teste já estava realizado. Também observou-se o balancemanto das classes através da quantidade de fotos por pasta.
 
-Optou-se pela utilização de transfer-learning para a otimização das métricas de treinamento. Em um primeiro caso, havia-se observado métricas muito boas no dataset sem data augmentation e transfer-learning, porém, nos testes, os valores ficaram um pouco abaixo do esperado.
+Em um primeiro caso, havia-se observado métricas muito boas no dataset sem data augmentation e transfer-learning, porém, nos testes, os valores ficaram um pouco abaixo do esperado. Optou-se, então, pela utilização de transfer-learning para a otimização das métricas de treinamento. 
 
 Os códigos foram estruturados de uma maneira em que os processos são claramente visíveis, facilitando qualquer alteração.
 
-Foi verificado a possibilidade da criação de um entregável executável, porém, devido ao seu grande tamanho, não foi disponibilizado aqui. O executável, caso mantido, não poderia ser compilado com a flag `-t T`.
+Foi verificado a possibilidade da criação de um entregável executável, porém, devido ao seu grande tamanho, não foi disponibilizado aqui. O executável, caso mantido, não poderia ser compilado com a flag `-t T`. Foi utilizado o comando `pyinstaller --onefile defect_detect.py` para esta ação.
 
 Ao final, obteve-se um modelo que atingiu as seguintes métricas no dataset de teste: 
 Acurácia: 0.9340 
