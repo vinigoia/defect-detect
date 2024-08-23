@@ -73,7 +73,30 @@ A foto acima representa a Matriz Confusão gerada pelos códigos disponibilizado
 <p align="center">
   <img src="https://github.com/vinigoia/defect-detect/blob/c766e972dd478f8cda17cd8d5fc5797f91714ad6/assets/classification_report_json.png"width="30%"</p>
 
- 
+ Como observado acima, as nossa métricas para o modelo treinado foram muito boas. Vamos entender o que cada uma delas representa:
 
+### Acurácia
 <p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:700/1*FvMtz5kCu-GOI3GSgi6k4Q.png"width="30%"</p>
+  <img src="https://miro.medium.com/v2/resize:fit:700/1*FvMtz5kCu-GOI3GSgi6k4Q.png"width="50%"</p>
+
+
+
+### Precisão
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:700/1*9yxSYzw298P_JSZuTMVEBg.png"width="50%"</p>
+
+
+
+### Recall ou Revogação
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:700/1*fqZ1ymVGGSA5fbqYrf1t1Q.png"width="50%"</p>
+
+### F1 Score
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:700/1*qFeLJvX-K3VMfROmKTejpQ.png"width="50%"</p>
+
+
+
+
+
+  
