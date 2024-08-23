@@ -54,7 +54,7 @@ No bash, o link `http://localhost:6006/` será exibido. Clicando nele, o servido
 
 # Tensorboard
 
-<img src="https://github.com/vinigoia/defect-detect/tree/defect-detect-proj/assets/tensorboard.png" width="50%" height="50%"/>
+<img src="https://github.com/vinigoia/defect-detect/tree/defect-detect-proj/assets/tensorboard.png"/>
 
 # Resultado
 
