@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://github.com/vinigoia/defect-detect/blob/c766e972dd478f8cda17cd8d5fc5797f91714ad6/assets/logo_take.jpg"width="70%"</p>
-
 <div align="center">
   
   [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vinicius-goia-75a403234)](https://www.linkedin.com/in/vinicius-goia-75a403234)
@@ -9,7 +6,7 @@
 
 # Detecção de Defeitos em Superfícies
 
-Este repositório refere-se ao projeto de etapa de processo seletivo da Empresa Take and Go para a vaga de Desenvolvedor de Inteligência Artificial. Os algoritmos carregam o dataset e treinam um modelo capaz de realizar classificações em novas imagens.
+Este repositório refere-se ao projeto de identificação de inconformidades em superfícies. Os algoritmos carregam o dataset e treinam um modelo capaz de realizar classificações em novas imagens.
 
 <p align="center">
   <img src="https://github.com/vinigoia/defect-detect/blob/defect-detect-proj/assets/exemplo.png"width="50%"</p>
@@ -115,7 +112,7 @@ Também chamada de sensibilidade ou taxa de verdadeiros positivos (TPR), é a pr
 # Sobre o Processo
 
 O intuito desse projeto foi demonstrar a construção de códigos que possibilitaram a execução do treinamento de um modelo de maneira automática através de um dataset fornecido.
-Alguns processos comumentes utilizados nesse tipo de pipeline foram desconsiderados devido a estrutura do dataset. Por exemplo, o processo de divisão de dados de treinamento e teste já estava realizado. Também observou-se o balancemanto das classes através da quantidade de fotos por pasta.
+Alguns processos comumentes utilizados nesse tipo de pipeline foram desconsiderados devido a estrutura do dataset. Por exemplo, o processo de divisão de dados de treinamento e teste já estava realizado. Também observou-se o balancemanto das classes através da quantidade de fotos por diretório.
 
 Em um primeiro caso, havia-se observado métricas muito boas no dataset sem data augmentation e transfer-learning, porém, nos testes, os valores ficaram um pouco abaixo do esperado. Optou-se, então, pela utilização de transfer-learning para a otimização das métricas de treinamento. 
 
